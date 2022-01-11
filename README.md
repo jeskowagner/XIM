@@ -6,7 +6,7 @@ However, this implementation by Zhexiao Lin and Fang Han provides an improvement
 
 For details, please check their paper: <https://arxiv.org/abs/2108.06828v1>
 
-This package is just a wrapper about their scripts provided here: <https://sites.stat.washington.edu/people/fanghan/XIMCOR.R>
+This package is just a wrapper of their scripts provided here: <https://sites.stat.washington.edu/people/fanghan/XIMCOR.R>
 
 # Usage
 ```r
