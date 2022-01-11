@@ -1,0 +1,14 @@
+Package: XIM
+Title: "Computing the revised Chatterjee’s rank correlation"
+Version: 0.1.0
+Authors@R: c(
+    person("Zhexiao", "Lin", role = "aut"),
+    person("Fang", "Han", role = "aut"),
+    person("Jesko", "Wagner", role = "cre", email = "jesko.wagner@ed.ac.uk")
+    )
+Description: The revised Chatterjee’s rank correlation is a near-parametric rank correlation coefficient.
+See https: //arxiv.org/abs/2108.06828v1.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
