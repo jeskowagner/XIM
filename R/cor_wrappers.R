@@ -7,7 +7,10 @@ ccor = function(x,y,M=3){
     if(M > 1000){
         warning("M is very large and computation might take longer.")
     }
-    XIM::XIMcalculate(x, y, M=M)
+    res = XIM::XIMcalculate(x, y, M=M)
+    res$p.value = "NA"
+    res$conf.int = "NA"
+    res
 }
 
 .cor_return = function(cor, what=c("all","cor","conf","pval")){
