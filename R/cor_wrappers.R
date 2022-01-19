@@ -7,7 +7,8 @@ ccor = function(x,y,M=3){
     if(M > 1000){
         warning("M is very large and computation might take longer.")
     }
-    res = XIM::XIMcalculate(x, y, M=M)
+    res = list()
+    res$estimate = XIM::XIMcalculate(x, y, M=M)
     res$p.value = "NA"
     res$conf.int = "NA"
     res
