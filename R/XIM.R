@@ -5,7 +5,6 @@
 #
 # Packaging by Jesko Wagner
 
-#' @export
 #' @title XIMcalculate
 #'
 #' @description This function computes the revised Chatterjee’s rank correlation `$\xi_{n,M}$`.
